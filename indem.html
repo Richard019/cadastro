@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/style.css" rel="stylesheet">
+    <title>Desafio 2</title>
+</head>
+<body>
+    <table>
+        <form>
+            <tr>
+                <td colspan="3" class="linha1">Não é associado?Faça seu cadastro</td>
+                <td class="linha1-2"></td>
+            </tr>
+            <tr>
+                <td> 
+                    Nome
+                </td>
+                <td colspan="3">
+                    <input class="caixa1" type="text" name="nome" size="" maxlength="20">
+                </td>
+            </tr>
+            <tr>    
+                <td> 
+                    Nome<br> completo
+                </td>
+                <td colspan="3">
+                    <input class="caixa1" type="text" name="nome" size="" maxlength="40">
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    CPF
+                </td>
+                <td colspan="3">
+                    <input class="caixa1" type="number" name="cpf" size="" maxlength="11">
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    E-mail
+                </td>
+                <td colspan="3">
+                    <input class="caixa1" type="email" name="email" size="" maxlength="64">
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    WebSite
+                </td>
+                <td colspan="3">
+                    <input class="caixa1" type="text" name="WebSite" size="" maxlength="26">
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    Endereço
+                </td>
+                <td colspan="3">
+                    <input class="caixa1" type="text" name="endereco" size="" maxlength="90">
+                </td>
+            </div>
+            </tr>
+            <tr>
+                <td> 
+                    Bairro
+                </td>
+                <td>
+                    <input class="caixa" type="text" name="bairro" size="" maxlength="90">
+                </td>
+                <td>
+                    Cidade
+                </td>
+                <td>
+                    <input class="caixa" type="text" name="cidade" size="" maxlength="90">
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    Cep
+                </td>
+                <td>
+                    <input class="caixa" type="number" name="cep" size="" maxlength="8">
+                </td>
+                <td>
+                    UF
+                </td>
+                <td>
+                    <select>
+                        <option value="1">AC</option>
+                        <option value="2">AL</option>
+                        <option value="3">AP</option>
+                        <option value="4">AM</option>
+                        <option value="5">BA</option>
+                        <option value="6">CE</option>
+                        <option value="7">DF</option>
+                        <option value="8">ES</option>
+                        <option value="9">GO</option>
+                        <option value="10">MA</option>
+                        <option value="11">MT</option>
+                        <option value="12">MS</option>
+                        <option value="13">MG</option>
+                        <option value="14">PA</option>
+                        <option value="15">PR</option>
+                        <option value="17">PI</option>
+                        <option value="19">RJ</option>
+                        <option value="20">RN</option>
+                        <option value="21">RS</option>
+                        <option value="22">RO</option>
+                        <option value="23">RR</option>
+                        <option value="24">SC</option>
+                        <option value="25">SP</option>
+                        <option value="26">SE</option>
+                        <option value="27">TO</option>
+                    </select>
+                </td>     
+            </tr>
+            <tr>
+                <td> 
+                    Telefone
+                </td>
+                <td>
+                    <input class="caixa" type="tel" name="endereco" size="" maxlength="10">
+                </td>
+                <td>
+                    Fax
+                </td>
+                <td>
+                    <input class="caixa" type="tel" name="fax" size="" maxlength="60">
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    Data<br> nascimento
+                </td>
+                <td>
+                    <input class="caixa" type="date" name="datanasc" size="" maxlength="10"> 
+                </td>
+                <td>
+                    Sexo
+                </td>
+                <td>
+                    <input type="radio" name="Genero" value="M">M
+                    <input type="radio" name="Genero" value="F">F
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    Celular:
+                </td>
+                <td>
+                    <input class="caixa" type="tel" name="celular" size="" maxlength="11"> 
+                </td>
+                <td>
+                    Est.Civil
+                </td>
+                <td>
+                    <select>
+                        <option value="1" class="value">Solteiro</option>
+                        <option value="2" class="value">Casado</option>
+                        <option value="3" class="value">Viúvo</option>
+                        <option value="4" class="value">Divorciado</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    Login:
+                </td>
+                <td>
+                    <input class="caixa" type="text" name="login" size="" maxlength="32">
+                </td>
+                <td>
+                    Senha
+                </td>
+                <td>
+                    <input class="caixa"type="password" name="senha" size="" maxlength="32">
+                </td>
+            </tr>
+            <tr>
+                <td class="caixa3" colspan="4">Deseja receber informações sobre os seguintes assuntos abaixo:</td>
+            </tr>
+            <tr>
+                <td class="caixa-assunto1" colspan="4">
+                    <input type="checkbox" name="assunto1" value="tecnologia">Tecnologia
+                    <input type="checkbox" name="assunto2" value="esporte">Esporte
+                    <input type="checkbox" name="assunto3" value="automoveis">Automoveis
+                    <input type="checkbox" name="assunto4" value="culinaria">Culinaria
+                    <input type="checkbox" name="assunto5" value="politica">Politica
+                    <input type="checkbox" name="assunto6" value="policial">Policial
+                    <input type="checkbox" name="assunto7" value="tempo">Tempo
+                </td>
+            </tr>
+            <tr>
+                <td class="caixa-assunto1" colspan="4">
+                    <input type="checkbox" name="assunto1" value="cultura">Cultura
+                    <input type="checkbox" name="assunto2" value="economia">Economia
+                    <input type="checkbox" name="assunto3" value="jogos">Jogos
+                    <input type="checkbox" name="assunto4" value="educacao">Educação
+                    <input type="checkbox" name="assunto5" value="viagem">Viagem
+                    <input type="checkbox" name="assunto6" value="modaestilo">Moda e Estilo
+                </td>
+            </tr>
+            <tr>
+                <td class="caixa-assunto1" colspan="4">
+                    <input type="checkbox" name="termos" value="termos">Li as regras de cadastro e autorizo a criação do usuário
+                </td>
+            </tr>
+            <tr>
+                <td class="botoes" colspan="4">
+                    <input type="submit" value="Confirmar">
+                    <input type="reset" value="Retornar">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
